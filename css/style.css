@@ -21,6 +21,7 @@ p {
   font-size: 16px;
   line-height: 1.75;
   margin-bottom: 28px;
+  padding-right: 30px;
 }
 
 strong {
@@ -36,7 +37,7 @@ ul li {
 */
 
 
-h1, h2 {
+h1, h2, h4 {
   font-family: 'Lato', arial, sans-serif;
   color: gray;
   text-align: center;
@@ -50,6 +51,11 @@ h1 {
 
 h2 {
   font-size: 2rem;
+
+}
+
+h4 {
+  font-size: 0.8rem;
 }
 
 /*
@@ -102,7 +108,7 @@ section.intro {
 }
 section.contact {
   background: #e6e9ea;
-  opacity: 0.5;
+  
 }
 
 /*
@@ -112,6 +118,8 @@ section.contact {
 aside .left{
   float: left;
 }
+
+
 
 aside .right{
   float: right;
